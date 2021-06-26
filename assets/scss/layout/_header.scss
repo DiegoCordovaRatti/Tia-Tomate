@@ -1,17 +1,18 @@
-.header{
+.header {
     color: $snow;
     background-color: $jelly-bean;
     height: 100vh;
-}
 
-.header__container{
-    @include flex-container;
-}
+    .header__container {
+        @include flex-container;
+    }
 
-.header__title{
-    font-size: $x-large;
-    font-weight: $bold;
-    &.header__title--extra-light{
-        font-weight: $extra-light;
+    .header__title {
+        font-size: $x-large;
+        font-weight: $bold;
+
+        &.header__title--extra-light {
+            font-weight: $extra-light;
+        }
     }
 }

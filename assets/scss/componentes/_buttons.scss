@@ -1,26 +1,13 @@
-// .button{
-//     padding: 0.7rem 2rem;
-//     border-radius: 3px;
-//     font-family: $open-sans;
-//     font-size: $small;
-//     color:$white;
-// }
-
-// .button_default{
-//    color: $carmine-pink;
-//    border: $carmine-pink;
-//    &:hover{
-//        background-color: $salmon;
-//        border-color:$salmon;
-//        color: $black-olive;
-//    }
-// }
-
-// .button_positive {
-//     background-color: $verdigris;
-//     border-color: $verdigris;
-//     &:hover {
-//     background-color: $medium-aquamarine;
-//     border-color: $medium-aquamarine;
-//     }
-// }
+.btn{
+    padding: 10px 100px;
+    border:  solid $quick-silver;
+    border-width: thin;
+    border-radius: 50px;
+    .btn__text{
+        font-size: $normal;
+        font-weight: 700;
+        color: $granite-gray;
+        padding: 0;
+        margin: 0;
+    }
+}

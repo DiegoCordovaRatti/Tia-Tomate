@@ -1,0 +1,12 @@
+.section{
+    background-color: $jelly-bean;
+    height: 200px;
+    .section__container{
+        @include flex-container;
+        .section__title{
+            color: $snow;
+            font-weight: 700;
+            font-size: $large;
+        }
+    }
+}
