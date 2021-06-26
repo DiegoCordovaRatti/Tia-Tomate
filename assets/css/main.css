@@ -9,6 +9,7 @@ body {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -47,6 +48,40 @@ body {
 }
 .header__title.header__title--extra-light {
   font-weight: 200;
+}
+
+.article {
+  padding: 100px 0;
+}
+.article.article--gray {
+  background-color: #91918d;
+}
+.article .article__container {
+  padding: 0 9vw;
+}
+.article .article__container .article__img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.article .article__container .article__img.article__img--photo {
+  width: 400px;
+}
+.article .article__container .article__container__text {
+  padding: 0 18vw;
+}
+.article .article__container .article__container__text.article__container__text--snow {
+  color: #fafafa;
+}
+.article .article__container .article__container__text.article__container__text--gray {
+  color: #686963;
+}
+.article .article__container .article__container__text .article__title {
+  margin: 25px 0;
+  font-size: 45px;
+  font-weight: 700;
+}
+.article .article__container .article__container__text .article__paragraph {
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */
