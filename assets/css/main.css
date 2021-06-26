@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  background-color: #fff;
+  background-image: url(/assets/images/background.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: 80%;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  padding: 10px 100px;
+}
+
+.navbar_logo {
+  width: 300px;
+}
+
+.header {
+  color: #fafafa;
+  background-color: #e56353;
+  height: 100vh;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header__title {
+  font-size: 70px;
+  font-weight: 700;
+}
+.header__title.header__title--extra-light {
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=main.css.map */
