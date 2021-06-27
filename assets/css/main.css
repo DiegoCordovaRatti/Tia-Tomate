@@ -14,11 +14,12 @@ img {
 
 body {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
   text-align: center;
 }
 
 .navbar {
-  padding: 10px 100px;
+  padding: 20px 5vw;
 }
 
 .navbar_logo {
@@ -81,7 +82,7 @@ body {
 
 .section {
   background-color: #e56353;
-  height: 200px;
+  height: 250px;
 }
 .section .section__container {
   display: flex;
@@ -98,7 +99,7 @@ body {
 
 .footer {
   background-color: #686963;
-  height: 200px;
+  height: 250px;
 }
 .footer .footer__container {
   display: flex;
@@ -112,7 +113,7 @@ body {
 }
 
 .btn {
-  padding: 10px 100px;
+  padding: 15px 100px;
   border: solid #a0a0a0;
   border-width: thin;
   border-radius: 50px;

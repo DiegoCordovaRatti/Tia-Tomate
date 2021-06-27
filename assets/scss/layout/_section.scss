@@ -1,6 +1,6 @@
 .section{
     background-color: $jelly-bean;
-    height: 200px;
+    height: 250px;
     .section__container{
         @include flex-container;
         .section__title{

@@ -5,7 +5,7 @@
     &.article--gray {
         background-color: $taupe-gray;
     }
-
+    
     .article__container {
         padding: 0 9vw;
 
@@ -20,11 +20,11 @@
 
         .article__container__text {
             padding: 0 18vw;
-
+            // special text styling
             &.article__container__text--snow {
                 color: $snow;
             }
-
+            // special text styling
             &.article__container__text--gray {
                 color: $granite-gray;
             }
@@ -34,7 +34,7 @@
                 font-size: 45px;
                 font-weight: 700;
             }
-
+            // Only this element is aligned to the left
             .article__paragraph {
                 text-align: left;
             }
